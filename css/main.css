@@ -40,6 +40,10 @@ which goes before in the triangle, eg. hide helper class
     color: #000000;
 }
 
+/* html {
+    font-size: .9rem;
+} */
+
 /*--------------------------------------------------------------
    4.0 - ELEMENTS
 -------------------------------------------------------------- */
@@ -47,13 +51,14 @@ which goes before in the triangle, eg. hide helper class
 h1,
 h2 {
     font-weight: 700;
-    margin: 0;
+    /* margin: 0; */
 }
 
 /* ----- TYPOGRAPHY ----- */
 
 h1 {
     font-size: 75px;
+    /* font-size: 3.25rem; */
     line-height: 102px;
     text-align: center;
 }
@@ -89,6 +94,7 @@ h2 {
 [class*='col-'] div {
     background-color: gray;
     height: 100%;
+    padding: 10px;
 }
 
 [class*='col-'] {
@@ -144,9 +150,17 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
+    html {
+        /* font-size: 1.5rem; */
+        font-size: 25px;
+    }
 
     .wrapper {
         width: 80%;
+    }
+
+    [class*='col-'] {
+        padding:10px;
     }
 
     .col-md-1 {
@@ -197,7 +211,6 @@ h2 {
         width: calc(100% * 12 / 12);
     }
 
-    
 }
 
 @media screen and (min-width: 1024px) {
