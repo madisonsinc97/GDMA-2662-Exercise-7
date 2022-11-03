@@ -33,8 +33,7 @@ which goes before in the triangle, eg. hide helper class
 }
 
 * {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font: 16px 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 22px;
     color: #000000;
@@ -51,7 +50,6 @@ which goes before in the triangle, eg. hide helper class
 h1,
 h2 {
     font-weight: 700;
-    /* margin: 0; */
 }
 
 /* ----- TYPOGRAPHY ----- */
@@ -286,11 +284,6 @@ h2 {
     background-clip: content-box;
 }
 
-/*--------------------------------------------------------------
-   7.0 - UTILITY
--------------------------------------------------------------- */
-
-/* ----- COLOR ----- */
 
 
 
